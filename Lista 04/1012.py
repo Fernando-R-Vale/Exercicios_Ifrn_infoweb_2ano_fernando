@@ -1,0 +1,12 @@
+A = input()
+Num, quant, preç = A.split(" ", 3)
+A = float(Num)
+B = float(quant)
+C = float(preç)
+Pi = 3.14159
+P = float(Pi)
+print(f'TRIANGULO: {(A * C)/ 2:.3f}')
+print(f'CIRCULO: {C ** 2 * P:.3f}')
+print(f'TRAPEZIO: {((A + B) * C)/ 2:.3f}')
+print(f'QUADRADO: {B ** 2:.3f}')
+print(f'RETANGULO: {A * B:.3f}')
